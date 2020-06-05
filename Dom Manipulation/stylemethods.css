@@ -1,0 +1,15 @@
+/* Css file for the styling_methods.html file */
+
+/* Style the highlight class */
+.highlight {
+    color: blue;
+    border: 10 px solid blue;
+}
+
+
+/* Some other class to toggle on/off */
+.another-class {
+    color: purple;
+    font-size: 100px;
+}
+
