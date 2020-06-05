@@ -1,0 +1,23 @@
+p {
+
+/*content -- width and height around content*/
+width: 50%;
+/*height: 300px*/
+
+/*border*/
+border: 2px solid blue;
+/*border-top: 0px;*/
+
+/*padding -- between boarder and text*/
+padding-left:  40px;
+
+/*margin -- outside boarder*/
+
+/*margin: 100px;*/
+/*margin-top: 500px;*/
+/*margin: 20px 40px 500px 100px;*/
+/*margin: 0 auto 0 auto;*/
+margin: 0 auto;
+margin: 50px 20px;
+
+}

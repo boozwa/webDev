@@ -1,0 +1,40 @@
+font-family*/
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Georgia;
+}
+/*font-size*/
+
+h1 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 10px;
+}
+
+/*using "em" element in font size make the text size dynamic. Meaning 
+it is increase or decrease by scaler amount of the */
+span {
+	font-size: 2.0em;
+}
+/*font-weight*/
+p {
+	font-weight: bold;
+}
+/*line-height*/
+p {
+	line-height: 2;
+}
+/*text-align*/
+h1 {
+	text-align: right;
+}
+/*text-decoration*/
+
+p {
+	text-decoration: underline;
+}

@@ -1,0 +1,71 @@
+Element*/
+/*Use this to style all HTML elements of that type*/
+li {
+    background: brown; 	
+}
+/*Class*/
+/*Put class within <> brackets in HTML file then this will apply to all*/
+.hello {
+    background: brown; 	
+}
+/*id*/
+/*Use this to select a single tagb by id*/
+#name {
+    background: brown; 
+}
+
+/*Star*/
+/*This applied to all elements of the HTML file (i.e. all <ul>, <h1>, etc*/
+*{
+    background: brown; 
+}
+
+/*Descendant Selector*/
+/*Use this to style */
+li a {      /*a is an "anchor tag"*/
+    background: brown; 
+}
+
+/*Adjacnet Selector*/
+/*Use this to style all sibilings that come AFTER an element*/
+h4 + ul {
+    background: brown;
+}
+
+/*Attribute Selector*/
+/*Use this to style all same type of attribute in an HTML file*/
+input [type="checkbox"] {
+    background: brown;
+}
+
+/*nth of type*/
+/*i.e. selects and styles every 5th <div>*/
+ul:nth-of-type(3) {
+    background: brown;	
+}
+
+/*Type Selectors*/
+
+/*Lest Specific*/
+li	{	
+    background: brown;
+}
+
+/*More specific, will override the previous*/
+li a {
+    background: brown;
+}
+ 
+/*Most Specific, will override the previous 2*/
+li + a {
+    background: brown;
+}
+
+/*Class, attribute, and pseudo-class selectors*/
+.hello {
+    background: brown;
+}
+
+input[type = "text"] {
+    background: brown;
+}

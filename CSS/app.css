@@ -1,0 +1,24 @@
+h1{
+/*	color: red;
+	border-color: purple;
+	border-width: 2px;
+	border-style: solid;
+*/
+
+border: 2px purple solid;
+}
+
+li {
+	color: green;
+}
+
+h4 {
+	background:  orange;
+}
+
+body {
+	background: pink;
+/*	background:  url(https://www.agedwoods.com/wp-content/uploads/2018/03/agedwoods-whyisthegrainimportant-benefitsofreclaimedwood-2018.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}

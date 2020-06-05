@@ -1,0 +1,38 @@
+body {
+	background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+	/*All fonts in body will be white unless overridden: specificy*/
+	color: white; 
+}
+
+html {
+/*	Fixed a bug that made the backround image duplicate. Applying this makes the entire 
+	HTML body (document)*/
+	height: 100%;
+}
+#content {
+	text-align: center;
+	padding-top: 25%;
+
+	/*Text Shadow Code - applies to center text*/
+	/*First px is x offset, 2nd px y offset, and last is blur radius*/
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+h1 {
+	/*This will make it bold*/
+	font-weight: 700;
+	/* This will increase size*/
+	font-size: 5em;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #F8F8F8;
+	border-bottom: 1px solid (0,0,0,0.2)
+}
