@@ -1,0 +1,153 @@
+body    {
+    /* background-color: lightgray; */
+    background-image: url("imgs/br1.png");
+    background-size: cover;
+}
+
+.outline    {
+    border:.5rem solid greenyellow;
+}
+
+.firstRow   {
+    background-color: #899857;
+}
+
+.secondRow  {
+    margin-top: 1rem;
+}
+
+.sixthRow  {
+    background-color: #899857;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+}
+
+canvas {
+    background-color: blue; 
+    width: 100%;
+    height: auto;
+  }
+  
+  .firstRow, .sixthRow,
+    .fourCol {
+      border: .01rem solid black;
+  }
+
+  .twoCol   {
+      font-weight: 600;
+ 
+  }
+
+  div {
+    margin-top: 0;
+}
+
+.cell   {
+    width: 64px;
+    height: 64px;
+    /* border: 1px solid black; */
+    background-image: url("imgs/empty.png");
+    margin: 0rem;
+    padding: 0rem;
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: collapse;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.isBlank { 
+    width: 64px;
+    height: 64px;
+    /* border: 1px solid black; */
+    background-image: url("#");
+    margin: 0rem;
+    padding: 0rem;
+    border-collapse: collapse;
+}
+
+.isEmpty { 
+    width: 64px;
+    height: 64px;
+    /* border: 1px solid black; */
+    background-image: url("imgs/empty.png");
+    margin: 0rem;
+    padding: 0rem;
+    border-collapse: collapse;
+}
+
+.isBlack {
+    width: 64px;
+    height: 64px;
+    /* border: 1px solid black; */
+    background-image: url("imgs/black.png");
+    margin: 0rem;
+    padding: 0rem;
+    border-collapse: collapse;
+}
+
+.isRed {
+    width: 64px;
+    height: 64px;
+    /* border: 1px solid black; */
+    background-image: url("imgs/red.png");
+    margin: 0rem;
+    padding: 0rem;
+    border-collapse: collapse;
+}
+
+.hovBlack:hover {
+    width: 64px;
+    height: 64px;
+    /* border: 1px solid black; */
+    background-image: url("imgs/solo_black.png");
+    margin: 0rem;
+    padding: 0rem;
+    border-collapse: collapse;
+    border-radius: 75%;
+}
+
+.hovRed:hover {
+    width: 64px;
+    height: 64px;
+    /* border: 1px solid black; */
+    background-image: url("imgs/solo_red.png");
+    margin: 0rem;
+    padding: 0rem;
+    border-collapse: collapse;
+    border-radius: 75%;
+}
+
+p   {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.tit1   {
+    font-weight: 800;
+}
+
+hr  {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.highlight  {
+    background-color: #FFFF00;
+
+}
+
+.txt1   {
+    font-weight: 600;
+}
+
+
+

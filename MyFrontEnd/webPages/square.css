@@ -1,0 +1,25 @@
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+
+}
+
+p  {
+	/*Change Font*/
+	font-family: Arial;  
+	/*Move margin so it aligns with first picture*/
+	margin-left: 1.66%;
+	/*Increase the font size*/
+	font-size: 23px;
+	/*Make maximum boldness (100 is least 800 is max)*/
+	font-weight: 800;
+	/*Make all letters uppercase*/
+	text-transform: uppercase;
+	/*Just show the bottom part of the border*/
+	border-bottom: 2px solid #f1f1f1;
+	/*Make all paragraphs a width of 30% of the screen width (relative)*/
+	width: 30%;
+	/*Give a little cusion between the text and border*/
+	padding-bottom: 20px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/98256840e6.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="con4_v3.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row firstRow justify-content-center text-center">
+            <div class="col-xs oneCol">
+                <h1>CONNECT FOUR!!! </h1>
+                <H6>By Jake</H6>
+            </div>
+        </div>
+        <div class="row justify-content-around secondRow">
+            <div id="player1" class="col-xs twoCol highlight">
+                Player 1: Red
+            </div>
+            <div id="player2" class="col-xs twoCol highlight">
+                Player 2: Black
+            </div>
+        </div>
+        <!-- <div class="row secondRow justify-content-around">
+            <div class="col-xs twoCol">
+                <input type="text" name="" id="p1">
+            </div>
+            <div class="col-xs twoCol">
+                <input type="text" name="" id="p2">
+            </div>
+        </div> -->
+        <div class="row-inline forthRow justify-content-center text-center ">
+            <div class="row row-no-gutters">
+                <table id="boardSpace"></table>
+            </div>
+        </div>
+        <div class="row sixthRow justify-content-around mt-3">
+            <div class="col-xs twoCol">
+                <div class="col-xs twoCol">
+                    Red Score
+                </div>
+                <div class="col-xs twoCol text-center">
+                    <h3 id="redScore"></h3>
+                </div>
+            </div>
+            <div class="col-xs twoCol">
+                <div class="col-xs twoCol ">
+                    Black Score
+                </div>
+                <div class="col-xs twoCol text-center">
+                    <h3 id="blkScore"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="row fithRow justify-content-center mt-4">
+            <div class="col-xs oneCol">
+                <button id="reset"><strong>New Game</strong></button>
+            </div>
+        </div>
+
+        <div class="row seventhRow justify-content-center">
+            <!-- Hover Effect -->
+            <div class="rowHover">
+                <!-- This is where i want to place the content -->
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div id="rules">
+        <p class="tit1">Description</p>
+        <p class="txt1">This game is played on a vertical board wich has seven hollow columns and six rows. Each column
+            has a hole in the upper part of the board, where pieces are introduced. There is a window for every square,
+            so that pieces can be seen from both sides.</p>
+        <p class="txt1">In short, it´s a vertical board with 42 windows distributed in 6 rows and 7 columns.</p>
+        <p class="txt1">Both players have a set of 21 thin pieces (like coins); each of them uses a different colour.
+            The board is empty at the start of the game.</p><a name="objetivoJ"></a>
+        <p class="tit1">Objective</p>
+        <p class="txt1">The aim for both players is to make a straight line of four own pieces; the line can be
+            vertical, horizontal or diagonal.</p><a name="desarrolloJ"></a>
+        <p class="tit1">How the game goes on</p>
+        <p class="txt1"> Moves are made alternatively, one by turn. Player has first move for first game,
+            then game loser makes first move on the next game.</p>
+        <p class="txt1">Moves entails in placing new pieces on the board; pieces slide downwards from upper holes,
+            falling down to the last row or piling up on the last piece introduced in the same column. So, in every turn
+            the introduced piece may be placed at most on seven different squares.</p>
+        <p class="txt1">The winner is the first player who gets a straight line made with four own pieces and no gaps
+            between them.</p>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+    <script src="con4_v3.js"></script>
+</body>
+
+</html>

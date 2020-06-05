@@ -1,0 +1,26 @@
+.ban {
+    size: 4rem;
+    width: 50%;
+}
+
+h1{
+    border-color: 5px solid red;
+}
+
+#avatar {
+    width: 25px;
+}
+
+hr { 
+    border: 12px;
+    height: 12px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#header-img {
+    background: center url("https://images.unsplash.com/photo-1458639010157-4e9732b494d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
